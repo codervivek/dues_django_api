@@ -5,26 +5,35 @@
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.9~svn20110310	//
 ALLOWED_HOSTS	../dues/settings.py	/^ALLOWED_HOSTS = []$/;"	kind:variable	line:28
-AUTH_PASSWORD_VALIDATORS	../dues/settings.py	/^AUTH_PASSWORD_VALIDATORS = [$/;"	kind:variable	line:87
+AUTH_PASSWORD_VALIDATORS	../dues/settings.py	/^AUTH_PASSWORD_VALIDATORS = [$/;"	kind:variable	line:89
+ApiConfig	../api/apps.py	/^class ApiConfig(AppConfig):$/;"	kind:class	line:4
 BASE_DIR	../dues/settings.py	/^BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))$/;"	kind:variable	line:16
-DATABASES	../dues/settings.py	/^DATABASES = {$/;"	kind:variable	line:76
+DATABASES	../dues/settings.py	/^DATABASES = {$/;"	kind:variable	line:78
 DEBUG	../dues/settings.py	/^DEBUG = True$/;"	kind:variable	line:26
 INSTALLED_APPS	../dues/settings.py	/^INSTALLED_APPS = [$/;"	kind:variable	line:33
-LANGUAGE_CODE	../dues/settings.py	/^LANGUAGE_CODE = 'en-us'$/;"	kind:variable	line:106
-MIDDLEWARE	../dues/settings.py	/^MIDDLEWARE = [$/;"	kind:variable	line:42
-ROOT_URLCONF	../dues/settings.py	/^ROOT_URLCONF = 'dues.urls'$/;"	kind:variable	line:52
+LANGUAGE_CODE	../dues/settings.py	/^LANGUAGE_CODE = 'en-us'$/;"	kind:variable	line:108
+MIDDLEWARE	../dues/settings.py	/^MIDDLEWARE = [$/;"	kind:variable	line:44
+ROOT_URLCONF	../dues/settings.py	/^ROOT_URLCONF = 'dues.urls'$/;"	kind:variable	line:54
 SECRET_KEY	../dues/settings.py	/^SECRET_KEY = '6j8fot%ggfqj4_17j-eowxw&xsz34mslz$f__z&1uqt-9!fzf6'$/;"	kind:variable	line:23
-STATIC_URL	../dues/settings.py	/^STATIC_URL = '\/static\/'$/;"	kind:variable	line:120
-TEMPLATES	../dues/settings.py	/^TEMPLATES = [$/;"	kind:variable	line:54
-TIME_ZONE	../dues/settings.py	/^TIME_ZONE = 'UTC'$/;"	kind:variable	line:108
-USE_I18N	../dues/settings.py	/^USE_I18N = True$/;"	kind:variable	line:110
-USE_L10N	../dues/settings.py	/^USE_L10N = True$/;"	kind:variable	line:112
-USE_TZ	../dues/settings.py	/^USE_TZ = True$/;"	kind:variable	line:114
-WSGI_APPLICATION	../dues/settings.py	/^WSGI_APPLICATION = 'dues.wsgi.application'$/;"	kind:variable	line:70
+STATIC_URL	../dues/settings.py	/^STATIC_URL = '\/static\/'$/;"	kind:variable	line:122
+TEMPLATES	../dues/settings.py	/^TEMPLATES = [$/;"	kind:variable	line:56
+TIME_ZONE	../dues/settings.py	/^TIME_ZONE = 'UTC'$/;"	kind:variable	line:110
+USE_I18N	../dues/settings.py	/^USE_I18N = True$/;"	kind:variable	line:112
+USE_L10N	../dues/settings.py	/^USE_L10N = True$/;"	kind:variable	line:114
+USE_TZ	../dues/settings.py	/^USE_TZ = True$/;"	kind:variable	line:116
+WSGI_APPLICATION	../dues/settings.py	/^WSGI_APPLICATION = 'dues.wsgi.application'$/;"	kind:variable	line:72
+__init__.py	../api/__init__.py	1;"	kind:file	line:1
+__init__.py	../api/migrations/__init__.py	1;"	kind:file	line:1
 __init__.py	../dues/__init__.py	1;"	kind:file	line:1
+admin.py	../api/admin.py	1;"	kind:file	line:1
 application	../dues/wsgi.py	/^application = get_wsgi_application()$/;"	kind:variable	line:16
+apps.py	../api/apps.py	1;"	kind:file	line:1
 manage.py	../manage.py	1;"	kind:file	line:1
+models.py	../api/models.py	1;"	kind:file	line:1
+name	../api/apps.py	/^    name = 'api'$/;"	kind:variable	line:5
 settings.py	../dues/settings.py	1;"	kind:file	line:1
+tests.py	../api/tests.py	1;"	kind:file	line:1
 urlpatterns	../dues/urls.py	/^urlpatterns = [$/;"	kind:variable	line:19
 urls.py	../dues/urls.py	1;"	kind:file	line:1
+views.py	../api/views.py	1;"	kind:file	line:1
 wsgi.py	../dues/wsgi.py	1;"	kind:file	line:1
